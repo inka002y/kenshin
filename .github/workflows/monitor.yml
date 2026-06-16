@@ -23,7 +23,7 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           TARGET_MONTH: "2026-07"
-          BEFORE_DATE: "2026-08-01"
+          BEFORE_DATE: "2026-07-23"
           COURSE_ID: "105"
           FACILITY_ID: "3"
       - name: Save notified dates

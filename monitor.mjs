@@ -3,7 +3,7 @@ const ENTRY_URL = `${BASE_URL}self_login/general`;
 const COURSE_ID = process.env.COURSE_ID || "105";
 const FACILITY_ID = process.env.FACILITY_ID || "3";
 const TARGET_MONTH = process.env.TARGET_MONTH || "2026-07";
-const BEFORE_DATE = process.env.BEFORE_DATE || "2026-08-01";
+const BEFORE_DATE = process.env.BEFORE_DATE || "2026-07-23";
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL || "";
 const STATE_FILE = process.env.STATE_FILE || "state/notified.json";
 
